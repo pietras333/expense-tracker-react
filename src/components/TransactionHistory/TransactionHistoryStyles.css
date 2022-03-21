@@ -1,0 +1,27 @@
+.transaction-history {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.transaction-history h1 {
+  border-bottom: 1px solid white;
+}
+
+.send-transaction {
+  display: flex;
+  margin: 10px auto;
+  background-color: rgba(50, 50, 50, 0.8);
+  font-size: 1.25rem;
+  border-radius: 10px;
+  transition: all 0.25s;
+  color: whitesmoke;
+  padding: 5px;
+  outline: none;
+  border: 3px solid white;
+}
+
+.send-transaction:hover {
+  background-color: rgba(50, 50, 50, 1);
+  border: 3px solid #65fe08;
+  color: #65fe08;
+}
