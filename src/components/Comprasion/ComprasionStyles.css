@@ -1,0 +1,28 @@
+.comprasion {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.income,
+.expense {
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 45%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.income h3 {
+  color: #65fe08;
+}
+.expense h3 {
+  color: #ff0000;
+}
+.income {
+  border: 3px solid #65fe08;
+}
+.expense {
+  border: 3px solid #ff0000;
+}
